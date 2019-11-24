@@ -1,2 +1,3 @@
 # Designer test
 
+`npm install`
