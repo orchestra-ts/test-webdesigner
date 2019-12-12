@@ -18,12 +18,12 @@ Lance un
 npm install
 ```
 
-Fait toi une branche nommée par ton `prenom.première_lettre_de_ton_nom`
+Fait toi une branche nommée par ton `prenom.premiere_lettre_de_ton_nom`
 ```shell
 git pull
 ```
 ```shell
-git checkout -b [prenom.première_lettre_de_ton_nom]
+git checkout -b [prenom.premiere_lettre_de_ton_nom]
 ```
 
 Puis exécute 
@@ -39,5 +39,5 @@ Et ensuite suis les instructions affichées sur l’index.html
 ## Pour finir
 Une fois terminé push ta branche
 ```shell
-git push origin [prenom.première_lettre_de_ton_nom]
+git push origin [prenom.premiere_lettre_de_ton_nom]
 ```
