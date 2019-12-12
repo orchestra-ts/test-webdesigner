@@ -23,7 +23,7 @@ Lance un
 npm install
 ```
 
-Fait toi une branche nommée par ton `prenom.premiere_lettre_de_ton_nom`
+Fait toi une branche nommée par ton ```prenom.premiere_lettre_de_ton_nom```
 ```shell
 git pull
 ```
