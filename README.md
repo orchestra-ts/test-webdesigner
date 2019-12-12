@@ -8,6 +8,12 @@ Assure-toi d’avoir la bonne version (min v12) de nodejs [nodejs](https://nodej
 ```shell
 node -v 
 ```
+Dans le projet
+Lance un
+```shell
+cd designer-test
+```
+
 Lance un
 ```shell
 npm install
