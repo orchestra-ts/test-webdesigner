@@ -20,6 +20,9 @@ npm install
 
 Fait toi une branche nommée par ton `prenom.première_lettre_de_ton_nom`
 ```shell
+git pull
+```
+```shell
 git checkout -b [prenom.première_lettre_de_ton_nom]
 ```
 
