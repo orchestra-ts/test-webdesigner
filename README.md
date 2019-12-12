@@ -2,7 +2,7 @@
 > Preprocessor CSS
 
 ## Pour commencer
-Clone le projet, fait toi une branche nommée par ton prenom.première_lettre_de_ton_nom.
+Clone le projet, fait toi une branche nommée par ton `prenom.première_lettre_de_ton_nom`
 
 Assure-toi d’avoir la bonne version (min v12) de nodejs [nodejs](https://nodejs.org/)
 ```shell
