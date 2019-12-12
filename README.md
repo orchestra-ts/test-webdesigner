@@ -1,13 +1,18 @@
 # Designer test
 > Preprocessor CSS
 
-## Pour commencer
-Clone le projet
-
+## Prérequis
 Assure-toi d’avoir la bonne version (min v12) de nodejs [nodejs](https://nodejs.org/)
 ```shell
 node -v 
 ```
+
+## Pour commencer
+Clone le projet
+```shell
+git clone [URL_du_projet]
+```
+
 Dans le projet
 ```shell
 cd designer-test
