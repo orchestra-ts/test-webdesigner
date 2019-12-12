@@ -2,7 +2,7 @@
 > Preprocessor CSS
 
 ## Prérequis
-Assure-toi d’avoir la bonne version (min v12) de nodejs [nodejs](https://nodejs.org/)
+Assure-toi d’avoir la bonne version (min v12) de [nodejs](https://nodejs.org/)
 ```shell
 node -v 
 ```
@@ -36,7 +36,7 @@ Puis exécute
 npm run start
 ```
 
-Et ensuite suis les instructions affichées sur l’index.html
+**Et ensuite suis les instructions affichées sur l’index.html**
 
 [http://localhost:9001/](http://localhost:9001/)
 
