@@ -32,7 +32,6 @@ Et ensuite suis les instructions affichées sur l’index.html
 
 [http://localhost:9001/](http://localhost:9001/)
 
-____
 
 ## Pour finir
 Une fois terminé push ta branche
