@@ -37,7 +37,12 @@ Et ensuite suis les instructions affichées sur l’index.html
 
 
 ## Pour finir
-Une fois terminé push ta branche
+Une fois terminé commit et push ta branche
+
+```shell
+git commit -am "Message du commit"
+```
+
 ```shell
 git push origin [prenom.premiere_lettre_de_ton_nom]
 ```
