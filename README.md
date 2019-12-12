@@ -38,7 +38,7 @@ npm run start
 
 **Et ensuite suis les instructions affichées sur l’index.html**
 
-[http://localhost:9001/](http://localhost:9001/)
+-> [http://localhost:9001/](http://localhost:9001/)
 
 
 ## Pour finir
