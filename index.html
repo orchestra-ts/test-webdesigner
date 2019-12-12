@@ -1,28 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Demo designer</title>
+    <title>Designer test</title>
     <!-- jQuery -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
-
     <!-- Normalize css -->
     <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
-
     <!-- Fontawesome -->
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <!-- Style CSS from less files -->
+    <link rel="stylesheet" href="./css/style_less.css">
+    <!-- Style CSS from sass files -->
+    <link rel="stylesheet" href="./css/style_sass.css">
+    <style>
+        .annotation {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.3;
+            padding: 0px 0px 50px 0;
+            background: #f9f9f9;
+            display: grid;
+        }
 
-    <!-- Style CSS-->
-    <link rel="stylesheet" href="./css/style.css">
+        @media (min-width: 640px) {
+            .annotation {
+                grid-template-columns: minmax(auto, 500px) 200px;
+                justify-content: center;
+                padding-top: 50px;
+            }
+        }
+
+        .annotation>div {
+            padding: 0 15px;
+        }
+    </style>
 </head>
+
 <body>
-
-
-
-    <script>
-
-    </script>
+    <section class="annotation">
+        <div>
+            <h2>Instructions</h2>
+            <p>Dans cet index.html met en page un résultat de recherche de voyage avec les données disponible dans <a href="data.html">data.html</a> dans un délais d'une heure.</p>
+            <p>Au préalable un wireframing ou une maquette sur <a href="https://www.adobe.com/fr/products/xd.html">Xd</a> (ou un autre outils dédié au web) serait la bienvenue, fournit en retour de ce test</p>
+            <p>Reste concentré sur les données, il n'y a que ça à traiter (pas de header, footer, nav...)</p>
+            <p>Tu disposes de <a href="https://necolas.github.io/normalize.css/">jQuery css</a>, <a href="https://necolas.github.io/normalize.css/">normalize css</a>, <a href="https://fontawesome.com/">fontawesome free</a> (déjà installés).</p>
+            <p>Pour le style, tu as la possibilité d'utiliser soit Less (dossier less) ou Sass (dossier scss).</p>
+        </div>
+        <div>
+            <h2>À remplir</h2>
+            <strong>Nom :</strong> <span></span><br>
+            <strong>Prénom :</strong> <span></span><br>
+            <strong>Mail :</strong> <span></span><br>
+            <strong>Portfolio, github, CV, linkedin...</strong>
+            <hr>
+            <h3>Et à commit sur ta branche "prénom"</h3>
+        </div>
+    </section>
 </body>
+
 </html>
