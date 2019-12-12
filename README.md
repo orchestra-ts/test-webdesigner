@@ -9,19 +9,18 @@ Assure-toi d’avoir la bonne version (min v12) de nodejs [nodejs](https://nodej
 node -v 
 ```
 Dans le projet
-Lance un
 ```shell
 cd designer-test
-```
-
-Fait toi une branche nommée par ton `prenom.première_lettre_de_ton_nom`
-```shell
-git checkout -b [prenom.première_lettre_de_ton_nom]
 ```
 
 Lance un
 ```shell
 npm install
+```
+
+Fait toi une branche nommée par ton `prenom.première_lettre_de_ton_nom`
+```shell
+git checkout -b [prenom.première_lettre_de_ton_nom]
 ```
 
 Puis exécute 
@@ -30,6 +29,10 @@ npm run start
 ```
 
 Et ensuite suis les instructions affichées sur l’index.html
+
+[http://localhost:9001/](http://localhost:9001/)
+
+____
 
 ## Pour finir
 Une fois terminé push ta branche
