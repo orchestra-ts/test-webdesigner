@@ -7,6 +7,10 @@ Assure-toi d’avoir la bonne version (min v12) de [nodejs](https://nodejs.org/)
 node -v 
 ```
 
+```shell
+gem install sass
+```
+
 ## Pour commencer
 Clone le projet
 ```shell
@@ -31,7 +35,7 @@ git pull
 git checkout -b [prenom.premiere_lettre_de_ton_nom]
 ```
 
-Puis exécute 
+Puis exécute
 ```shell
 npm run start
 ```
