@@ -14,7 +14,7 @@ gem install sass
 ## Pour commencer
 Clone le projet
 ```shell
-git clone https://gitlab.orchestra.eu/design/designer-test.git
+git clone https://github.com/orchestra-ts/test-webdesigner.git
 ```
 
 Dans le projet
