@@ -1,4 +1,4 @@
-var mydata = JSON.parse({
+{
     "products": [
         {
             "id": "1",
@@ -61,6 +61,4 @@ var mydata = JSON.parse({
             "summary": "Le quartier de Poblenou est un des plus contrastés de Barcelone. Les cheminées de briques rouges, témoins des usines qui peuplaient autrefois la zone, côtoient aujourd’hui les bâtiments les plus modernes. Les ruelles où vivaient les pêcheurs se fondent dans les rues parfaitement parallèles de ce district dynamique, en pleine expansion depuis les Jeux Olympiques de 1992 et qui concentre les principales entreprises du secteur technologique. S’y cache l’Hotel & Spa Villa Olímpica Suites ****, lui aussi parfaitement connecté… aux trésors de la ville, et donc idéal pour votre city-break dans la Belle Catalane !"
         }
     ]
-});
-
-console.log(mydata.products.title);
+}
